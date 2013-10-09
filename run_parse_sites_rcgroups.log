@@ -1,0 +1,13 @@
+***********************************
+
+parse_sites.sh
+
+***********************************
+Run Date: Tue Oct  8 18:11:00 CDT 2013
+url: http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 72393    0 72393    0     0   124k      0 --:--:-- --:--:-- --:--:--  139k100  161k    0  161k    0     0   168k      0 --:--:-- --:--:-- --:--:--  179k
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require': no such file to load -- active_record (LoadError)
+	from /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+	from /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.rb:13

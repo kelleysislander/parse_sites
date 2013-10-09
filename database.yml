@@ -1,0 +1,8 @@
+parse_sites:
+  adapter: mysql2
+  encoding: utf8
+  username: root
+  password:
+  host: localhost
+  database: parse_sites
+  socket: /tmp/mysql.sock

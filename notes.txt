@@ -1,0 +1,37 @@
+Aircraft - Electric - Helis (FS/W)
+curl http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/ | grep -i thread_title_ | grep 'ikon\|IKON\|Ikon\|flybarless\|FBL'
+
+require 'net/http'
+
+url = URI.parse('http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/')
+req = Net::HTTP::Get.new(url.path)
+res = Net::HTTP.start(url.host, url.port) {|http|
+  http.request(req)
+}
+result = res.body
+puts res.body
+puts res.body.lines.count
+
+res.body.lines.each do |line|
+  if line.include?("thread_title")
+    puts line
+  end
+end
+
+
+
+
+
+
+Electronics - Radios, Servos, Gyros, etc
+curl http://www.helifreak.com/forumdisplay.php?f=51/ | grep -i thread_title_ | grep 'ikon\|IKON\|Ikon\|flybarless\|FBL'
+
+
+CREATE TABLE thread_nums (
+    id              INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    thread_num      INTEGER,
+    thread_source   VARCHAR(20),
+    created_at      DATETIME,
+    INDEX idx_parse_sites_thread_num (thread_num ASC) );
+
+
