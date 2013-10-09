@@ -35,3 +35,17 @@ CREATE TABLE thread_nums (
     INDEX idx_parse_sites_thread_num (thread_num ASC) );
 
 
+
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:kelleysislander/parse_sites.git
+git push -u origin master
+
+
+Push an existing repository from the command line
+
+git remote add origin git@github.com:kelleysislander/parse_sites.git
+git push -u origin master
+

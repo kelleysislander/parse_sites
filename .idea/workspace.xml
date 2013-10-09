@@ -37,10 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="notes.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/notes.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="56" selection-start="685" selection-end="921" vertical-scroll-proportion="0.0">
+            <state line="44" column="0" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.76025915">
               <folding />
             </state>
           </provider>
@@ -55,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parse_sites.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="parse_sites.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse_sites.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="47" selection-start="619" selection-end="664" vertical-scroll-proportion="0.13822894">
+            <state line="8" column="47" selection-start="619" selection-end="664" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,12 +104,12 @@
         <option value="$PROJECT_DIR$/does_work" />
         <option value="$PROJECT_DIR$/does_not_work" />
         <option value="$PROJECT_DIR$/ikon-10_02_2013_motor_not_work.mtr" />
-        <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/database.yml" />
         <option value="$PROJECT_DIR$/.idea/thread_num.rb" />
         <option value="$PROJECT_DIR$/thread_num.rb" />
         <option value="$PROJECT_DIR$/parse_sites.rb" />
         <option value="$PROJECT_DIR$/parse_sites.sh" />
+        <option value="$PROJECT_DIR$/notes.txt" />
       </list>
     </option>
   </component>
@@ -188,8 +188,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -298,13 +298,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1905" y="5" width="1861" height="1024" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10853995" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.10964187" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -433,9 +433,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database.yml">
+    <entry file="file://$PROJECT_DIR$/parse_sites.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+        <state line="34" column="50" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -454,23 +454,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="56" selection-start="685" selection-end="921" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/parse_sites.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="50" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parse_sites.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="47" selection-start="619" selection-end="664" vertical-scroll-proportion="0.13822894">
+        <state line="8" column="47" selection-start="619" selection-end="664" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="23" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notes.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1092" selection-end="1092" vertical-scroll-proportion="0.76025915">
           <folding />
         </state>
       </provider>
