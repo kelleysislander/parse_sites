@@ -51,7 +51,8 @@ exit 0
 #   |     +----------- hour (0 - 23)
 #   +------------- min (0 - 59)
 
-# started from cron this way every 2 mins starting at midnight:
-# 0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58 * * * * /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.helifreak.com/forumdisplay.php?f=51 > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_helifreak.log 2>&1
-# started from cron this way every 2 mins starting at 1 minute past midnight:
-# 1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59 * * * * /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/ > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_rcgroups.log 2>&1
+# every random n mins starting at midnight:
+3,7,10,14,17,21,24,28,31,35,39,42,46,49,53,56,59 * * * * cd /Volumes/MainHD/Users/billy/Helis/heli_files && /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.helifreak.com/forumdisplay.php?f=51 > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_helifreak.log 2>&1
+
+# every random n mins starting at 1 minute past midnight:
+1,4,8,11,15,19,22,25,29,32,36,40,43,47,50,54,57 * * * * cd /Volumes/MainHD/Users/billy/Helis/heli_files && /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/ > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_rcgroups.log 2>&1

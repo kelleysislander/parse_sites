@@ -106,7 +106,8 @@ class ParseSites
         # WORKS: `echo "mary had a little lamb" | mail -s 'The CL cmd to send this email was: date | mail -s test bill@semaphoremobile.com' kelleysislander@gmail.com`
         # WORKS: `echo "mary had a little lamb" | mail -s "New #{source} Listing" kelleysislander@gmail.com`
 
-      ThreadNum.create!( :thread_num => thread_num, :thread_source => source, :created_at => DateTime.now )
+      text = link_text[2, link_text.index("<")-2 ]
+      ThreadNum.create!( :thread_num => thread_num, :thread_source => source, :link_text => link_text[2, link_text.index("<")-2 ], :created_at => DateTime.now )
 
       `echo "#{full_link}" | mail -s "New #{source} Listing" kelleysislander@gmail.com`
 

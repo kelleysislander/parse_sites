@@ -18,22 +18,20 @@ res.body.lines.each do |line|
   end
 end
 
-
-
-
-
-
 Electronics - Radios, Servos, Gyros, etc
 curl http://www.helifreak.com/forumdisplay.php?f=51/ | grep -i thread_title_ | grep 'ikon\|IKON\|Ikon\|flybarless\|FBL'
 
+CREATE DATABASE parse_sites CHARACTER SET utf8 COLLATE utf8_general_ci;
 
 CREATE TABLE thread_nums (
     id              INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     thread_num      INTEGER,
     thread_source   VARCHAR(20),
+    link_text       VARCHAR(256),
     created_at      DATETIME,
     INDEX idx_parse_sites_thread_num (thread_num ASC) );
 
+sudo install_name_tool -change libmysqlclient.18.dylib /usr/local/mysql-5.5.15-osx10.6-x86_64/lib/libmysqlclient.18.dylib /Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.2-p290@parse_sites/gems/mysql2-0.3.13/lib/mysql2/mysql2.bundle
 
 
 touch README.md
