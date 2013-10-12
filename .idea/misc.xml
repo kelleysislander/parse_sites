@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]" project-jdk-type="RUBY_SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="RVM: ruby-1.9.2-p290 [parse_sites]" project-jdk-type="RUBY_SDK" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />

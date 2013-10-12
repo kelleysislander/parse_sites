@@ -3,13 +3,12 @@
 parse_sites.sh
 
 ***********************************
-Run Date: Thu Oct 10 14:51:41 CDT 2013
+Run Date: Fri Oct 11 20:46:00 CDT 2013
+pwd/Volumes/MainHD/Users/billy
 url: http://www.helifreak.com/forumdisplay.php?f=51
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 29815    0 29815    0     0  25450      0 --:--:--  0:00:01 --:--:-- 27838100 45743    0 45743    0     0  21008      0 --:--:--  0:00:02 --:--:-- 22034100  109k    0  109k    0     0  48393      0 --:--:--  0:00:02 --:--:-- 50577
-<a href="showthread.php?s=89a748f5fa79720bd1e25087b650060f&amp;t=568685" id="thread_title_568685">ar7200bx 7-ch dsmx flybarless control system beast x</a>
-thread_num: 568685
-str1: <a href="http://www.helifreak.com/showthread.php?
-str2: t=568685
-link_text: ">ar7200bx 7-ch dsmx flybarless control system beast x</a>
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   855    0   855    0     0   2259      0 --:--:-- --:--:-- --:--:--  3097100  110k    0  110k    0     0   126k      0 --:--:-- --:--:-- --:--:--  143k
+/Volumes/MainHD/Users/billy: /Volumes/MainHD/Users/billy/Volumes/MainHD/Users/billy
+Using /Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.2-p290 with gemset parse_sites
+Job Completed: Fri Oct 11 2013 20:46:02 -0500

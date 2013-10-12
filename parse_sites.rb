@@ -9,10 +9,13 @@
 # /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/
 
 root = `pwd`.chop!
+
+# puts "root: #{root}"
+
 require 'rubygems'
 require 'active_record'
 require 'yaml'
-require "#{root}/thread_num.rb"
+require "#{root}/Helis/heli_files/thread_num.rb"
 
 class ParseSites
 
@@ -26,7 +29,7 @@ class ParseSites
     #puts "%%%%%%%% @@base_url: #{@@base_url}" # %%%%%%%% base_url: http://www.helifreak.com/
     #puts "*********** inside url: #{url}" # *********** inside url: http://www.helifreak.com/forumdisplay.php?f=51
 
-    dbconfig = YAML::load(File.open('database.yml'))['parse_sites']
+    dbconfig = YAML::load(File.open("#{currloc}/Helis/heli_files/database.yml"))['parse_sites']
 
     ActiveRecord::Base.establish_connection( dbconfig )
 
@@ -34,15 +37,19 @@ class ParseSites
 
       #puts "helifreak"
 
-      if File.exist?( "#{currloc}/helifreak_parse.txt" )
+      #puts "helifreak currloc"
+      #puts "#{currloc}/Helis/heli_files/helifreak_parse.txt"
+
+      if File.exist?( "#{currloc}/Helis/heli_files/helifreak_parse.txt" )
 
         #puts "helifreak file exists, process the file here"
-        if File.size( "#{currloc}/helifreak_parse.txt" )
+        if File.size( "#{currloc}/Helis/heli_files/helifreak_parse.txt" ) > 0
           #puts "File size > 0"
-          result = File.open( "#{currloc}/helifreak_parse.txt" )
+          result = File.open( "#{currloc}/Helis/heli_files/helifreak_parse.txt" )
 
           process_file( result, "Helifreak" )
-
+        else
+          puts "ERROR: There was no 'helifreak_parse.txt' file to process"
         end
 
       end
@@ -50,34 +57,40 @@ class ParseSites
     else
 
       #puts "rcgroups"
+      #puts "rcgroups currloc"
+      #puts "#{currloc}/Helis/heli_files/rcgroups_parse.txt"
 
-      if File.exist?( "#{currloc}/rcgroups_parse.txt" )
+
+      if File.exist?( "#{currloc}/Helis/heli_files/rcgroups_parse.txt" )
         #puts "rcgroups file exists, process the file here"
 
         #puts "helifreak file exists, process the file here"
-        if File.size( "#{currloc}/rcgroups_parse.txt" )
+        if File.size( "#{currloc}/Helis/heli_files/rcgroups_parse.txt" ) > 0
           #puts "File size > 0"
-          result = File.open( "#{currloc}/rcgroups_parse.txt" )
+          result = File.open( "#{currloc}/Helis/heli_files/rcgroups_parse.txt" )
 
           process_file( result, "RCGroups" )
 
           # <a href="showthread.php?s=4270b5c1acc6e5d7d1b659df39b07b42&amp;t=568685" id="thread_title_568685">ar7200bx 7-ch dsmx flybarless control system beast x</a>
           # <a href="showthread.php?s=4270b5c1acc6e5d7d1b659df39b07b42&amp;t=569997" id="thread_title_569997">bnib spektrum ar7200bx flybarless rx</a>
 
+        else
+          puts "ERROR: There was no 'rcgroups_parse.txt' file to process"
         end
       end
     end
 
+    puts "Job Completed: #{DateTime.now.strftime('%a %b %d %Y %H:%M:%S %z')}"
   end
 
   def process_file( result, source )
 
     result.each_line do |line|
       line.strip!
-      puts line
+      #puts line
       #link = line.split('"')[1]
       thread_num = line[ line.index("thread_title") + 13, 6 ]
-      puts "thread_num: #{thread_num}"
+      #puts "thread_num: #{thread_num}"
 
       # if thread_num not on the DB then proceed
       if check_noton_thread_nums( thread_num )
@@ -93,11 +106,12 @@ class ParseSites
         #puts "****** str2: #{str2}"
         # extract the link text ie ">ar7200bx 7-ch dsmx flybarless control system beast x</a>"
         link_text = line[ line.index(">") - 1, line.length - line.index(">") + 1 ]
-        # put it all together
 
-        puts "str1: #{str1}"
-        puts "str2: #{str2}"
-        puts "link_text: #{link_text}"
+        #puts "str1: #{str1}"
+        #puts "str2: #{str2}"
+        #puts "link_text: #{link_text}"
+
+        # put it all together
 
         full_link = str1 + str2 + link_text
 
@@ -109,7 +123,7 @@ class ParseSites
       text = link_text[2, link_text.index("<")-2 ]
       ThreadNum.create!( :thread_num => thread_num, :thread_source => source, :link_text => link_text[2, link_text.index("<")-2 ], :created_at => DateTime.now )
 
-      `echo "#{full_link}" | mail -s "New #{source} Listing" kelleysislander@gmail.com`
+      `echo "#{full_link}" | mail -s "#{source}: #{text}" kelleysislander@gmail.com`
 
       end
     end

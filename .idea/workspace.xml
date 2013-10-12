@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ruby-gemset" afterPath="$PROJECT_DIR$/.ruby-gemset" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.ruby-version" afterPath="$PROJECT_DIR$/.ruby-version" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/heli_files.iml" afterPath="$PROJECT_DIR$/.idea/heli_files.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helifreak_parse.txt" afterPath="$PROJECT_DIR$/helifreak_parse.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Save/ikon-10_02_2013_motor_not_work.mtr" afterPath="$PROJECT_DIR$/Save/ikon-10_02_2013_motor_not_work.mtr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Save/ikon-10_02_2013_motor_works.mtr" afterPath="$PROJECT_DIR$/Save/ikon-10_02_2013_motor_works.mtr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/notes.txt" afterPath="$PROJECT_DIR$/notes.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse_sites.rb" afterPath="$PROJECT_DIR$/parse_sites.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parse_sites.sh" afterPath="$PROJECT_DIR$/parse_sites.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rcgroups_parse.txt" afterPath="$PROJECT_DIR$/rcgroups_parse.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_parse_sites_helifreak.log" afterPath="$PROJECT_DIR$/run_parse_sites_helifreak.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run_parse_sites_rcgroups.log" afterPath="$PROJECT_DIR$/run_parse_sites_rcgroups.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="heli_files.iws" />
@@ -29,14 +21,16 @@
     <file path="$USER_HOME$/Projects/TranscriptionApp/app/controllers/archive_data.sh" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1380826046587" ignored="false" />
     <file path="/archive_data.sh" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1380826026775" ignored="false" />
     <file path="/notes.txt" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381434953966" ignored="false" />
-    <file path="/parse_sites.rb" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381435409182" ignored="false" />
-    <file path="/parse_sites.sh" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381441439399" ignored="false" />
+    <file path="/parse_sites.rb" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381530085304" ignored="false" />
+    <file path="/parse_sites.sh" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381526219060" ignored="false" />
     <file path="$USER_HOME$/Projects/TranscriptionApp/app/controllers/customers_controller.rb" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381262690446" ignored="false" />
     <file path="$USER_HOME$/Projects/TranscriptionApp/db/migrate/20090121023647_create_customers.rb" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381262869918" ignored="false" />
     <file path="/20090121023647_create_customers.rb" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381262844406" ignored="false" />
     <file path="$USER_HOME$/Projects/TranscriptionApp/app/views/layouts/homescreen.html.erb" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381264514587" ignored="false" />
     <file path="/database.yml" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381266202264" ignored="false" />
-    <file path="/Dummy.txt" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381433759127" ignored="false" />
+    <file path="/Dummy.txt" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381527813576" ignored="false" />
+    <file path="$USER_HOME$/Projects/TranscriptionApp/app/views/customers/index.html.erb" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381507842655" ignored="false" />
+    <file path="$USER_HOME$/Projects/z_Old/z_iRival01/app/classes/run_update.sh" changelist="697aa8c7-b6c4-4c31-9bff-6b2e376d9225" time="1381527672210" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +62,7 @@
       <file leaf-file-name="parse_sites.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/parse_sites.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="2" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.89485216">
+            <state line="20" column="31" selection-start="311" selection-end="325" vertical-scroll-proportion="0.3504929">
               <folding />
             </state>
           </provider>
@@ -77,7 +71,7 @@
       <file leaf-file-name="parse_sites.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/parse_sites.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="131" selection-start="3776" selection-end="3776" vertical-scroll-proportion="0.0">
+            <state line="81" column="50" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-18.73077">
               <folding />
             </state>
           </provider>
@@ -95,7 +89,7 @@
       <file leaf-file-name="thread_num.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread_num.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="15" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -104,7 +98,7 @@
       <file leaf-file-name="run_parse_sites_helifreak.log" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_parse_sites_helifreak.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="69" selection-start="911" selection-end="969" vertical-scroll-proportion="0.0">
+            <state line="16" column="69" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,14 +129,14 @@
         <option value="$PROJECT_DIR$/.idea/thread_num.rb" />
         <option value="$PROJECT_DIR$/thread_num.rb" />
         <option value="$PROJECT_DIR$/notes.txt" />
-        <option value="$PROJECT_DIR$/parse_sites.rb" />
         <option value="$PROJECT_DIR$/parse_sites.sh" />
+        <option value="$PROJECT_DIR$/parse_sites.rb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1905" />
-    <option name="y" value="5" />
+    <option name="x" value="-1907" />
+    <option name="y" value="17" />
     <option name="width" value="1861" />
     <option name="height" value="1024" />
   </component>
@@ -215,8 +209,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -313,14 +307,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1905" y="5" width="1861" height="1024" extended-state="0" />
+    <frame x="-1907" y="17" width="1861" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24958678" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11404958" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11955923" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -398,9 +392,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="6" column="23" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
@@ -451,25 +443,9 @@
         <state line="0" column="0" selection-start="0" selection-end="11" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rcgroups_parse.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread_num.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
@@ -479,23 +455,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rcgroups_parse.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_parse_sites_helifreak.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="69" selection-start="911" selection-end="969" vertical-scroll-proportion="0.0">
+        <state line="16" column="69" selection-start="820" selection-end="820" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread_num.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_sites.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="131" selection-start="3776" selection-end="3776" vertical-scroll-proportion="0.0">
+        <state line="81" column="50" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-18.73077">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/parse_sites.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="2" selection-start="2143" selection-end="2143" vertical-scroll-proportion="0.89485216">
+        <state line="20" column="31" selection-start="311" selection-end="325" vertical-scroll-proportion="0.3504929">
           <folding />
         </state>
       </provider>

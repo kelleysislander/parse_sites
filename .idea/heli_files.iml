@@ -4,14 +4,14 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.2.3, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.2.3, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.3, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="arel (v3.0.2, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.4, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.7, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, RVM: ruby-1.9.3-p429 [carrier-wave-plus-fog]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activemodel (v3.2.3, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activerecord (v3.2.3, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.3, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="arel (v3.0.2, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.4, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.5, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.8.1, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.38, RVM: ruby-1.9.2-p290 [parse_sites]) [gem]" level="application" />
   </component>
 </module>
 

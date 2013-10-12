@@ -1,6 +1,6 @@
 #!/bin/bash
 
-shopt -s -o nounset
+# shopt -s -o nounset
 
 declare -rx SCRIPT=${0##*/}
 
@@ -14,6 +14,9 @@ run_date=`date`
 printf "Run Date: %s" "$run_date"
 printf "\n"
 
+printf "pwd"
+printf `pwd`
+printf "\n"
 
 log_date=`date '+%Y%m%d_%H%M_%S'`
 
@@ -31,10 +34,19 @@ else
     curl -X GET ${url} | grep -i thread_title_ | awk '{print tolower($0)}' | grep 'ikon\|flybarless\|FBL\|msh\|brain' > ~/Helis/heli_files/rcgroups_parse.txt 2>&1
 fi
 
+printf "$HOME: $HOME"
+
+echo $HOME
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+rvm use ruby-1.9.2-p290@parse_sites
+
 # Now run the ruby script against the *_parse.txt file
 ruby /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.rb $url
 
 exit 0
+
 
 # To run this script from the CL:
 # /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.helifreak.com/forumdisplay.php?f=51
@@ -51,8 +63,18 @@ exit 0
 #   |     +----------- hour (0 - 23)
 #   +------------- min (0 - 59)
 
+
+MAILTO=""
 # every random n mins starting at midnight:
-3,7,10,14,17,21,24,28,31,35,39,42,46,49,53,56,59 * * * * cd /Volumes/MainHD/Users/billy/Helis/heli_files && /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.helifreak.com/forumdisplay.php?f=51 > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_helifreak.log 2>&1
+# 3,7,10,14,17,21,24,28,31,35,39,42,46,49,53,56,59 * * * * /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.helifreak.com/forumdisplay.php?f=51 > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_helifreak.log 2>&1
 
 # every random n mins starting at 1 minute past midnight:
-1,4,8,11,15,19,22,25,29,32,36,40,43,47,50,54,57 * * * * cd /Volumes/MainHD/Users/billy/Helis/heli_files && /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/ > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_rcgroups.log 2>&1
+# 1,4,8,11,15,19,22,25,29,32,36,40,43,47,50,54,57 * * * * /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/ > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_rcgroups.log 2>&1
+
+
+# every random n mins starting at midnight:
+# 3,7,10,14,17,21,24,28,31,35,39,42,46,49,53,56,59 * * * * cd /Volumes/MainHD/Users/billy/Helis/heli_files && /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.helifreak.com/forumdisplay.php?f=51 > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_helifreak.log 2>&1
+
+# every random n mins starting at 1 minute past midnight:
+# 1,4,8,11,15,19,22,25,29,32,36,40,43,47,50,54,57 * * * * cd /Volumes/MainHD/Users/billy/Helis/heli_files && /Volumes/MainHD/Users/billy/Helis/heli_files/parse_sites.sh http://www.rcgroups.com/aircraft-electric-helis-fs-w-44/ > /Volumes/MainHD/Users/billy/Helis/heli_files/run_parse_sites_rcgroups.log 2>&1
+
